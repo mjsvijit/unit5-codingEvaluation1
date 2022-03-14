@@ -1,4 +1,4 @@
-
+import "./App.css"
 import { Vegitables } from './Components/Vegitables';
 import { Wishlist } from './Components/Wishlist';
 
