@@ -6,6 +6,7 @@ function App() {
   return (
     <div >
      <Wishlist />
+    <div id="vr"></div>
       <Vegitables /> 
     </div>
   );
