@@ -42,7 +42,11 @@ else{
     return(
        <div className='elsediv'>
         <h1>You cannot add more than 3 items to wishlist</h1>
+        <br></br>
+
+        <h1>Wishlist</h1>
         { 
+           
             list.map(({item,status},idx)=>(<h1 key={idx}>{item}</h1>))
            }
            </div>
@@ -50,4 +54,5 @@ else{
     )
 }
 }
+
 
