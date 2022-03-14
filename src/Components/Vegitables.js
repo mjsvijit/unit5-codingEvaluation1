@@ -8,19 +8,19 @@ export const Vegitables = () => {
             setVeg1(veg1 + data1);
     }
 
-    const [veg2, setVeg2] = React.useState(10);
+    const [veg2, setVeg2] = React.useState(8);
      
     function vegdata2(data2){
             setVeg2(veg2 + data2);
     }
 
-    const [veg3, setVeg3] = React.useState(10);
+    const [veg3, setVeg3] = React.useState(5);
      
     function vegdata3(data3){
             setVeg3(veg3 + data3);
     }
 
-    const [veg4, setVeg4] = React.useState(10);
+    const [veg4, setVeg4] = React.useState(7);
      
     function vegdata4(data4){
             setVeg4(veg4 + data4);
